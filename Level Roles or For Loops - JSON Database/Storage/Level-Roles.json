@@ -1,0 +1,20 @@
+[
+    {
+        "guildID": "804229607984463912",
+        "Level_Role": "Level 1",
+        "Level_Role_ID": "Level 1",
+        "Level_To_Reach": 1
+    },
+    {
+        "guildID": "804229607984463912",
+        "Level_Role": "Level 2",
+        "Level_Role_ID": "Level 2",
+        "Level_To_Reach": 2
+    },
+    {
+        "guildID": "804229607984463912",
+        "Level_Role": "Level 3",
+        "Level_Role_ID": "Level 3",
+        "Level_To_Reach": 3
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "author": "Me",
+        "title": "New Title",
+        "content": "New Content: This is the day i updated this",
+        "date": "On 10/04/2021 At 10:04:15 pm",
+        "page": "1",
+        "updated": "Updated on 10/04/2021 at 10:24:34 pm"
+    },
+    {
+        "author": "Me",
+        "title": "First Diary",
+        "content": "Today is the day i wrote this.",
+        "date": "On 10/04/2021 At 10:20:43 pm",
+        "page": "2"
+    },
+    {
+        "author": "Me",
+        "title": "First Diary",
+        "content": "Today is the day i wrote this.",
+        "date": "On 10/04/2021 At 10:24:28 pm",
+        "page": "3"
+    },
+    {
+        "author": "Not me",
+        "title": "First Diary",
+        "content": "Today is the day i wrote this.",
+        "date": "On April 11, 2021 At 12:57:03 pm",
+        "page": "1"
+    },
+    {
+        "author": "Not me",
+        "title": "First Diary",
+        "content": "Today is the day i wrote this.",
+        "date": "On April 13, 2021 At 6:44:53 pm",
+        "page": "2"
+    },
+    {
+        "author": "Not me",
+        "title": "First Diary",
+        "content": "Today is the day i wrote this.",
+        "date": "On April 13, 2021 At 6:45:06 pm",
+        "page": "3"
+    }
+]
