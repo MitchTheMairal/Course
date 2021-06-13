@@ -1,12 +1,11 @@
 {
   "dependencies": {
     "package.json": "^2.0.1",
-    "simplified-javascript": "^1.0.4"
+    "simplified-javascript": "^1.0.9"
   },
   "name": "course",
   "version": "1.0.0",
-  "main": "Mains/Switch.js",
-  "devDependencies": {},
+  "main": "Mains/m1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

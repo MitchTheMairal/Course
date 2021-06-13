@@ -66,4 +66,3 @@ for Number in range(1, 10):
         Count += 1 # 4
         # print (Number)
 # print (f"There are {Count} Even Numbers.")
-

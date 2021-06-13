@@ -1,11 +1,11 @@
-function Role(roleID, emoji, guildID) {
-    this.roleID = roleID
-    this.emoji = emoji
-    this.guildID = guildID
+function Role(Role_ID, Emoji, Guild_ID) {
+    this.Role_ID = Role_ID
+    this.Emoji = Emoji
+    this.Guild_ID = Guild_ID
 
-    if(isNaN(roleID)) return new ReferenceError('Invalid Role ID')
-    if(!isNaN(emoji)) return new ReferenceError('The Emoji should not be an ID')
-    if(isNaN(guildID)) return new ReferenceError('Invalid Guild ID')
+    if(isNaN(Role_ID)) return new ReferenceError('Invalid Role ID')
+    if(!isNaN(Emoji)) return new ReferenceError('The Emoji should not be an ID')
+    if(isNaN(Guild_ID)) return new ReferenceError('Invalid Guild ID')
 }
 
 const R1 = new Role('1', '❤', '1')

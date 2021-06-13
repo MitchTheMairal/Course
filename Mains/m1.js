@@ -12,7 +12,7 @@ const Ages = [
     '14',
     '14'
 ]
-const Species = [
+const _Species_ = [
     'Cat',
     'Felour',
     'Unknown',
@@ -20,31 +20,33 @@ const Species = [
     '3 Tailed Fox'
 ]
 const Pronouns = [ 'His', 'Her' ]
-const RandomNames = Names[Math.floor(Math.random() * Names.length)]
-const RandomAges = Ages[Math.floor(Math.random() * Ages.length)]
-const RandomSpecies = Species[Math.floor(Math.random() * Species.length)]
-const RandomPronouns = Pronouns[Math.floor(Math.random() * Pronouns.length)]
+const Random_Names = Names[Math.floor(Math.random() * Names.length)]
+const Random_Ages = Ages[Math.floor(Math.random() * Ages.length)]
+const Random_Species = _Species_[Math.floor(Math.random() * _Species_.length)]
+const Random_Pronouns = Pronouns[Math.floor(Math.random() * Pronouns.length)]
 
-//Object
-const user = {
-    name: RandomNames,
-    age: RandomAges,
-    species: RandomSpecies,
-    pronoun: RandomPronouns
+// Object
+
+const User = {
+    Name: Random_Names,
+    Age: Random_Ages,
+    Species: Random_Species,
+    Pronoun: Random_Pronouns
 }
-const { name, age, species, pronoun } = user
+const { Name, Age, Species, Pronoun } = User
 
-//Function
-function Rune(name, age, species) {
-    if(isNaN(age)) {
-        throw new ReferenceError(`${age} is an invalid input.`)
+// Function
+
+function Rune(Name, Age, Species) {
+    if(isNaN(Age)) {
+        throw new ReferenceError(`${Age} is an invalid input.`)
     }
-    if(!species) {
+    if(!Species) {
         throw new ReferenceError(`You have to leave an input for species.`)
     }
-    console.log(`Hi i'm ${name} i'm ${age} and i am a ${species}`)
+    console.log(`Hi i'm ${Name} i'm ${Age} and i am a ${Species}.`)
 }
 
-console.log(`${pronoun} name is ${name}, he's ${age}, and his species are ${species}`)
+// console.log(`${Pronoun} name is ${Name}, he's ${Age}, and his species is a ${Species}.`)
 
 Rune('Luna', '14', '3 Tailed Tiger Fox')

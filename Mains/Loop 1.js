@@ -1,28 +1,20 @@
-let arr = [
+const Roles = [
     {
-        role_number: '1'
+        Role_ID: '1'
     },
     {
-        role_number: '2'
+        Role_ID: '2'
     },
     {
-        role_number: '3'
+        Role_ID: '3'
     },
     {
-        role_number: '7'
+        Role_ID: '7'
     },
     {
-        role_number: '5'
+        Role_ID: '5'
     },
-];
-for (let i = 0; i < arr.length; i++) {
-  console.log(arr[i].role_number);
+]
+for (let i = 0; i < aRolesrr.length; i++) {
+    console.log(arr[i].Role_ID);
 }
-/**
- * @returns
- * 1
- * 2
- * 3
- * 7
- * 5
- */
