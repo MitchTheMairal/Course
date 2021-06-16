@@ -3,6 +3,7 @@
 const Length = 40
 
 console.log(Increment_String("-", Length))
+
 function Increment_String(String, Length) {
     const String_To_Increment = []
     String_To_Increment[1 * Length] = String
