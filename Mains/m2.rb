@@ -3,14 +3,14 @@
 # inside of an Array of Hashes.
 
 OCs = [
-  {
-    "Name" => "Rune",
-    "ID" => 1
-  },
-  {
-    "Name" => "Luna",
-    "ID" => 2
-  }
+    {
+        "Name" => "Rune",
+        "ID" => 1
+    },
+    {
+        "Name" => "Luna",
+        "ID" => 2
+    }
 ]
 
 OC = OCs.find { |ocs| ocs["ID"] == 1 }
